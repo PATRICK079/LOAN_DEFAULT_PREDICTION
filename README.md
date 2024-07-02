@@ -120,7 +120,7 @@ I utilized the following tools and technologies for this project
   12. Tensorflow sequential,
   13.  DecisionTreeClassifier'
 
-   Based on model complexity and generalization; logistic Regression seems to capture my attention having a better generalization for both classes. Sequential, MultinomialNB classifier,BernoulliNB classifier and GaussianNB classifer seem very good too for this project. However i'll be deploying the LOGIT model due to its high interpretability and high recall that minimizes defaulters.
+   Based on model complexity and generalization; logistic Regression seems to capture my attention having a better generalization for both classes. Sequential, MultinomialNB classifier,BernoulliNB classifier and GaussianNB classifer seem very good too for this project. However i saved and  deployed the LOGIT model due to its high interpretability and high recall that minimizes defaulters.
 
  kindly check this link for  the  complete model development and metric scores 
  

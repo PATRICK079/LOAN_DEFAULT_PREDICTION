@@ -6,17 +6,17 @@ import joblib
 # Load models and scalers
 @st.cache_resource(show_spinner="Loading model")
 def load_model():
-    model = joblib.load("/Users/sot/final_model.pk1")
+    model = joblib.load("/Users/sot/Documents/deployment/final_model.pk1")
     return model
 
 @st.cache_resource(show_spinner="Loading scaler")
 def load_scaler():
-    scaler = joblib.load("/Users/sot/final_scaler.pk1")
+    scaler = joblib.load("/Users/sot/Documents/deployment/final_scaler.pk1")
     return scaler
 
 @st.cache_resource(show_spinner="Loading column names")
 def load_col():
-    col_name = joblib.load("/Users/sot/col_names.pk1")
+    col_name = joblib.load("/Users/sot/Documents/deployment/col_names.pk1")
     return col_name
 
 # Prediction function

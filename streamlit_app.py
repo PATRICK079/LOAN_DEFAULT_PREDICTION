@@ -50,6 +50,11 @@ if __name__ == '__main__':
     st.set_page_config(page_title="Loan Eligibility Checker", layout="centered", initial_sidebar_state="collapsed")
     st.title('Loan Eligibility Checker')
 
+      
+    # Adding an image
+    st.image('loanimage.jpeg', use_column_width=True)      
+
+    
     st.write("## Fill out the information below to check your loan eligibility")
     st.divider()
 

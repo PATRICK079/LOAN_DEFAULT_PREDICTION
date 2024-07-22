@@ -66,6 +66,8 @@ I utilized the following tools and technologies for this project
 
 ●  Heroku
 
+●  Render
+
 ●  Git
 
 ●  Streamlit

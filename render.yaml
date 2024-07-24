@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: loan-prediction-api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: MODEL_PATH
+        value: /path/to/final_model.pk1
+      - key: COL_NAMES_PATH
+        value: /path/to/col_names.pk1
+      - key: SCALER_PATH
+        value: /path/to/final_scaler.pk1

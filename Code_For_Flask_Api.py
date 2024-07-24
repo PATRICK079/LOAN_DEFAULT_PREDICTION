@@ -5,6 +5,10 @@ import pandas as pd
 
 app = Flask(__name__)
 
+@app.route("/")
+def index():
+    return '<h1>This is a flask api</h1>'
+
 @app.route('/loan_prediction', methods=['POST'])
 def predict():
     try:

@@ -129,18 +129,32 @@ I utilized the following tools and technologies for this project
  https://github.com/PATRICK079/LOAN_DEFAULT_PREDICTION/blob/main/LOAN_DEFAULT_PREDICTION%20PROJECT.ipynb
 
 
-##  Api and Streamlit Development
+##  Api Development
+
+I developed a loan default prediction API using Flask, a Python web framework, and deployed it on Render. The API predicts the likelihood of a loan default based on input data, providing a valuable tool for financial institutions to assess loan applications more accurately. The final product is accessible at https://loan-default-prediction-9fvx.onrender.com/.
+
+Below is the code for the flask api
+
+<img width="847" alt="api" src="https://github.com/user-attachments/assets/88c885bf-f4f6-4009-b45a-02006ce3ef74">
+
+Below is the screenshot of my render deployment 
 
 
+<img width="1439" alt="Screen Shot 2024-07-26 at 22 38 14" src="https://github.com/user-attachments/assets/39dc80b1-4fb2-4662-9e03-c6fd82ff7cf1">
+
+Testing the deployed Flask API with postman; screenshot below
+ 
+<img width="1406" alt="Screen Shot 2024-07-26 at 22 44 02" src="https://github.com/user-attachments/assets/a1449e5b-08e2-4408-b642-f8caa3e46a5a">
 
 
+## Streamlit Develpoment 
+
+ I also  developed a loan default prediction web service interface  using streamlit, and deployed it with the help of streamlit deployment service. 
+
+ Below is the screenshot of the  interface of my app
 
 
-
-
-
-
-
-
+<img width="1100" alt="Screen Shot 2024-07-26 at 23 03 02" src="https://github.com/user-attachments/assets/6665a09f-3139-45da-90cd-9f76e5537690">
 
  
+Please use this deployed link to communicate with my streamlit app: https://loan-defaultt-app.streamlit.app/

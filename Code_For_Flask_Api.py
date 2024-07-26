@@ -5,9 +5,9 @@ import pandas as pd
 
 app = Flask(__name__)
 
-model = joblib.load("/Users/sot/final_model.pk1")  
-col_names = joblib.load('/Users/sot/col_names.pk1') 
-scaler = joblib.load('/Users/sot/final_scaler.pk1') 
+model = joblib.load("final_model.pk1")  
+col_names = joblib.load('col_names.pk1') 
+scaler = joblib.load('final_scaler.pk1') 
 
 @app.route("/")
 def index():

@@ -12,3 +12,4 @@ services:
         value: /path/to/col_names.pk1
       - key: SCALER_PATH
         value: /path/to/final_scaler.pk1
+        

@@ -16,6 +16,10 @@ Lending a loan to a person could be a very critical  decision for financial inst
 2. Give recommendations to financial instutions  on the important features to consider wheen a client is  applying for a loan.
 3. Deploy the final classification model to API and streamlit web application 
 
+# Business Statement
+  
+A financial institution is experiencing a significant increase in loan defaults, resulting in substantial financial losses. They need a robust system to identify potential defaulters in advance, enabling them to make more informed lending decisions and mitigate financial risks and they have hired me as a machine learning engineer to build a system for them 
+
 # Data Dictionary 
 
   The dataset encompasses of over 14 inputs and a target with over 200+ observations(points). These include:

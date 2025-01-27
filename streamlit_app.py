@@ -87,3 +87,4 @@ if __name__ == '__main__':
         ]
 		pred = make_prediction(model, scaler, col_name, X_pred)
 		st.write(pred)
+
